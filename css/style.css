@@ -1,5 +1,6 @@
 body {
     background: #DCDCDC;
+    color:#FFFFFF;
 }
 
 #formulario {
@@ -19,7 +20,6 @@ body {
     text-align: center;
     font-weight: bold;
     padding: 20px 0;
-    color: #FFFFFF;
 }
 
 
@@ -27,7 +27,6 @@ body {
     font-size: 20px;
     font-weight: 300;
     padding: 20px;
-    color: #FFFFFF;
 }
 
 .campo-preenchimento{
@@ -74,7 +73,7 @@ p {
 }
 
 strong {
-    color: #00FF00;
+    color: #005c00;
 }
 
 h3 {
@@ -105,5 +104,6 @@ h4 {
 
         #calcular{
             width:8rem;
+            opacity:1;
         }
     }
