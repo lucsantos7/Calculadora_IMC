@@ -8,7 +8,9 @@ function resultadoFormulario(event){
 const peso = document.querySelector('#peso').value;
 const altura = document.querySelector('#altura').value;
 
-const calcularImc = peso / (altura * altura).toFixed(2);
+const alturaInserida = altura/100;
+
+const calcularImc = peso / (alturaInserida * alturaInserida).toFixed(2);
 
 if (calcularImc <= 18.5) {
      resultado.innerHTML = `Seu IMC é <p> ${calcularImc. toFixed(2)} </p>  Baixo peso &#128533`;
